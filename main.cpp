@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    if (argc == 2) {
+    if (argc < 3) {
         std::cout << "Please input at one input file and an output file";
         exit(0);
     }
