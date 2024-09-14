@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < argc; i++)
     {
         if (std::strcmp(argv[i], "-h") == 0) {
-            std::cout << "usage: pdfmerge [-h] file1 file2 ... output.pdf";
+            std::cout << "usage: pdfmerge [-h] [-v] file1 file2 ... output.pdf";
             exit(0);
         }
         if (std::strcmp(argv[i], "-v") == 0)
